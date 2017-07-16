@@ -1,0 +1,34 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.udit.finalto_do.MainActivity">
+    <item
+       android:id="@+id/search"
+        android:title="Search"/>
+    <item
+        android:id="@+id/add"
+        android:title="ADD"
+        app:showAsAction="always"
+        />
+    <item
+        android:id="@+id/aboutus"
+        android:title="about us"
+        />
+    <item
+        android:id="@+id/feedback"
+        android:title="FEEDBACK"
+        />
+    <item
+        android:id="@+id/Contactus"
+        android:title="Contact us"
+        />
+    <item
+        android:id="@+id/delete"
+        android:icon="@mipmap/delete"
+        app:showAsAction="always"
+        />
+    <item
+        android:id="@+id/select"
+        android:title="select to delete"
+        />
+</menu>
